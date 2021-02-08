@@ -36,7 +36,6 @@
   "description": "",
   "devDependencies": {
     "@babel/core": "7.12.10",
-    "@snowpack/plugin-webpack": "2.3.0",
     "@storybook/addon-a11y": "6.1.17",
     "@storybook/addon-actions": "6.1.17",
     "@storybook/addon-design-assets": "6.1.17",
