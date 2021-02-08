@@ -22,7 +22,7 @@
   "src-not-empty": true,
   "style-disabled": false,
   "tag-pair": true,
-  "tag-self-close": false,
+  "tag-self-close": true,
   "tagname-lowercase": true,
   "tags-check": false,
   "title-require": false
