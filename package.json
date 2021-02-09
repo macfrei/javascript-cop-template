@@ -1,6 +1,7 @@
 {
   "name": "javascript-app-template",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "prettier:write": "prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
