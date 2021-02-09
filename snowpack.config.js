@@ -2,21 +2,18 @@
 // See all supported options: https://www.snowpack.dev/reference/configuration
 
 /** @type {import("snowpack").SnowpackUserConfig } */
+
 module.exports = {
   mount: {
     src: '/',
-    /* ... */
   },
-  plugins: [
-    /* ... */
-  ],
-  packageOptions: {
-    /* ... */
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2017',
   },
-  devOptions: {
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
+  plugins: [],
+  packageOptions: {},
+  devOptions: {},
+  buildOptions: {},
 }
