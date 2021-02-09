@@ -2,6 +2,14 @@
   "name": "javascript-app-template",
   "version": "0.0.1",
   "private": true,
+  "author": "neuefische GmbH",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "contributors": [
+    "Lene Frei",
+    "Jerry Erbs"
+  ],
   "scripts": {
     "prettier:write": "prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
@@ -18,18 +26,6 @@
     "*.css": "stylelint",
     "*.html": "htmlhint"
   },
-  "keywords": [],
-  "author": "",
-  "contributors": [
-    {
-      "name": "Lene Frei"
-    },
-    {
-      "name": "Jerry Erbs"
-    }
-  ],
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@babel/core": "7.12.10",
     "@storybook/addon-a11y": "6.1.17",
@@ -53,5 +49,13 @@
     "stylelint": "13.9.0",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "20.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/javascript-app-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neuefische/javascript-app-template/issues"
+  },
+  "homepage": "https://github.com/neuefische/javascript-app-template#readme"
 }
