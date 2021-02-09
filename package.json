@@ -1,5 +1,5 @@
 {
-  "name": "app-template",
+  "name": "javascript-app-template",
   "version": "0.0.1",
   "scripts": {
     "prettier:write": "prettier --write .",
