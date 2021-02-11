@@ -52,6 +52,9 @@
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "20.0.0"
   },
+  "engines": {
+    "npm": ">=7.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/neuefische/javascript-app-template.git"
